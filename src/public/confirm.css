@@ -1,0 +1,40 @@
+.content-confirm {
+    width: auto;
+}
+
+.page_title {
+    text-align: center;
+}
+
+.confirm_table {
+    text-align: left;
+    margin-left: 100px;
+}
+
+.confirm_item {
+    height: 70px;
+}
+
+.send_button {
+    display: block;
+    margin: 0 auto;
+    background-color: black;
+    color: white;
+    border-radius: 3px;
+    border: none;
+    width: 100px;
+    height: 40px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.fix_button {
+    display: block;
+    background-color: white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid 1px gray;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
