@@ -9,10 +9,26 @@
 .confirm_table {
     text-align: left;
     margin-left: 100px;
+    width: 0 auto;
 }
 
 .confirm_item {
     height: 70px;
+}
+
+.confirm_content {
+    margin-left: 50px;
+    width: 100%;
+    border: none;
+}
+
+.confirm-content_name {
+    border: none;
+    width: 0 auto;
+}
+
+.confirm-content_name:first-child {
+    margin-left: 50px;
 }
 
 .send_button {

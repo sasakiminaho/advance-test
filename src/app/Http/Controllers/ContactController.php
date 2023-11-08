@@ -19,8 +19,10 @@ class ContactController extends Controller
         return view('confirm', ['contact' => $contact]);
     }
 
-    public function complete()
+    public function store(Request $request)
     {
+        $contact = $request->only(['last_name', 'first_name', 'gender', 'email', 'postcode', 'address', 'building_name', 'opinion']);
+        Contact::create($contact);
         return view('complete');
     }
 }

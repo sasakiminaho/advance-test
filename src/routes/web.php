@@ -17,4 +17,4 @@ Route::get('/', [ContactController::class, 'index']);
 
 Route::post('/confirm', [ContactController::class, 'confirm']);
 
-Route::get('/complete', [ContactController::class, 'complete']);
+Route::post('/complete', [ContactController::class, 'store']);
